@@ -19,6 +19,7 @@ public class Lottery {
 			everyBet[i].print();
 		}
 		s.close();
+		return;
 	}
 
 }

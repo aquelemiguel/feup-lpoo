@@ -25,6 +25,7 @@ public class Bet {
 			numbers[i] = thisGen; 
 		}
 		Arrays.sort(numbers); //Sorts the array in ascending order.
+		return;
 	}
 	
 	public void print(){
@@ -32,5 +33,6 @@ public class Bet {
 			System.out.print(numbers[i] + " ");
 		}
 		System.out.println("");
+		return;
 	}
 }
